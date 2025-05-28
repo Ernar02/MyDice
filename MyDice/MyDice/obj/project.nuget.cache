@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "jk+WoCbwBZQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ernar\\OneDrive\\Desktop\\Practice\\MyDice\\MyDice\\MyDice.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ernar\\.nuget\\packages\\consoletables\\2.6.2\\consoletables.2.6.2.nupkg.sha512",
+    "C:\\Users\\ernar\\.nuget\\packages\\wcwidth\\1.0.0\\wcwidth.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
