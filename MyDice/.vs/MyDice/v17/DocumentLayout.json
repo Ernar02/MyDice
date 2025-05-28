@@ -1,10 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ernar\\OneDrive\\Desktop\\Practice\\MyDice\\",
+  "WorkspaceRootPath": "C:\\Users\\ernar\\OneDrive\\Desktop\\F\\MyDice\\MyDice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B903272-D7C5-4ED5-89D5-1B8603AE87F0}|MyDice\\MyDice.csproj|c:\\users\\ernar\\onedrive\\desktop\\practice\\mydice\\mydice\\renders\\probabilitytable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B903272-D7C5-4ED5-89D5-1B8603AE87F0}|MyDice\\MyDice.csproj|solutionrelative:mydice\\renders\\probabilitytable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B903272-D7C5-4ED5-89D5-1B8603AE87F0}|MyDice\\MyDice.csproj|c:\\users\\ernar\\onedrive\\desktop\\f\\mydice\\mydice\\mydice\\services\\diceselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B903272-D7C5-4ED5-89D5-1B8603AE87F0}|MyDice\\MyDice.csproj|solutionrelative:mydice\\services\\diceselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B903272-D7C5-4ED5-89D5-1B8603AE87F0}|MyDice\\MyDice.csproj|c:\\users\\ernar\\onedrive\\desktop\\f\\mydice\\mydice\\mydice\\services\\diceroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B903272-D7C5-4ED5-89D5-1B8603AE87F0}|MyDice\\MyDice.csproj|solutionrelative:mydice\\services\\diceroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B903272-D7C5-4ED5-89D5-1B8603AE87F0}|MyDice\\MyDice.csproj|c:\\users\\ernar\\onedrive\\desktop\\f\\mydice\\mydice\\mydice\\services\\dicegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B903272-D7C5-4ED5-89D5-1B8603AE87F0}|MyDice\\MyDice.csproj|solutionrelative:mydice\\services\\dicegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B903272-D7C5-4ED5-89D5-1B8603AE87F0}|MyDice\\MyDice.csproj|c:\\users\\ernar\\onedrive\\desktop\\f\\mydice\\mydice\\mydice\\utils\\diceargumentsvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B903272-D7C5-4ED5-89D5-1B8603AE87F0}|MyDice\\MyDice.csproj|solutionrelative:mydice\\utils\\diceargumentsvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B903272-D7C5-4ED5-89D5-1B8603AE87F0}|MyDice\\MyDice.csproj|c:\\users\\ernar\\onedrive\\desktop\\f\\mydice\\mydice\\mydice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B903272-D7C5-4ED5-89D5-1B8603AE87F0}|MyDice\\MyDice.csproj|solutionrelative:mydice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +35,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProbabilityTable.cs",
-              "DocumentMoniker": "C:\\Users\\ernar\\OneDrive\\Desktop\\Practice\\MyDice\\MyDice\\Renders\\ProbabilityTable.cs",
-              "RelativeDocumentMoniker": "MyDice\\Renders\\ProbabilityTable.cs",
-              "ToolTip": "C:\\Users\\ernar\\OneDrive\\Desktop\\Practice\\MyDice\\MyDice\\Renders\\ProbabilityTable.cs",
-              "RelativeToolTip": "MyDice\\Renders\\ProbabilityTable.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
+              "Title": "DiceSelector.cs",
+              "DocumentMoniker": "C:\\Users\\ernar\\OneDrive\\Desktop\\F\\MyDice\\MyDice\\MyDice\\Services\\DiceSelector.cs",
+              "RelativeDocumentMoniker": "MyDice\\Services\\DiceSelector.cs",
+              "ToolTip": "C:\\Users\\ernar\\OneDrive\\Desktop\\F\\MyDice\\MyDice\\MyDice\\Services\\DiceSelector.cs",
+              "RelativeToolTip": "MyDice\\Services\\DiceSelector.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAawB4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T19:01:40.633Z",
+              "WhenOpened": "2025-05-28T13:54:49.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DiceRoller.cs",
+              "DocumentMoniker": "C:\\Users\\ernar\\OneDrive\\Desktop\\F\\MyDice\\MyDice\\MyDice\\Services\\DiceRoller.cs",
+              "RelativeDocumentMoniker": "MyDice\\Services\\DiceRoller.cs",
+              "ToolTip": "C:\\Users\\ernar\\OneDrive\\Desktop\\F\\MyDice\\MyDice\\MyDice\\Services\\DiceRoller.cs",
+              "RelativeToolTip": "MyDice\\Services\\DiceRoller.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIAzwB0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:54:38.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DiceGame.cs",
+              "DocumentMoniker": "C:\\Users\\ernar\\OneDrive\\Desktop\\F\\MyDice\\MyDice\\MyDice\\Services\\DiceGame.cs",
+              "RelativeDocumentMoniker": "MyDice\\Services\\DiceGame.cs",
+              "ToolTip": "C:\\Users\\ernar\\OneDrive\\Desktop\\F\\MyDice\\MyDice\\MyDice\\Services\\DiceGame.cs",
+              "RelativeToolTip": "MyDice\\Services\\DiceGame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:54:20.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DiceArgumentsValidator.cs",
+              "DocumentMoniker": "C:\\Users\\ernar\\OneDrive\\Desktop\\F\\MyDice\\MyDice\\MyDice\\Utils\\DiceArgumentsValidator.cs",
+              "RelativeDocumentMoniker": "MyDice\\Utils\\DiceArgumentsValidator.cs",
+              "ToolTip": "C:\\Users\\ernar\\OneDrive\\Desktop\\F\\MyDice\\MyDice\\MyDice\\Utils\\DiceArgumentsValidator.cs",
+              "RelativeToolTip": "MyDice\\Utils\\DiceArgumentsValidator.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwCgAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:54:10.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ernar\\OneDrive\\Desktop\\F\\MyDice\\MyDice\\MyDice\\Program.cs",
+              "RelativeDocumentMoniker": "MyDice\\Program.cs",
+              "ToolTip": "C:\\Users\\ernar\\OneDrive\\Desktop\\F\\MyDice\\MyDice\\MyDice\\Program.cs",
+              "RelativeToolTip": "MyDice\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:27:49.527Z",
               "EditorCaption": ""
             }
           ]

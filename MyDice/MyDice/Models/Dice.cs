@@ -22,15 +22,6 @@ namespace MyDice.Models
             Sides = new List<int>(sides).AsReadOnly();
         }
 
-        public int Roll(int sideIndex)
-        {
-            if (sideIndex < 0 || sideIndex >= Sides.Count)
-                throw new ArgumentOutOfRangeException(nameof(sideIndex),
-                    $"Side index must be between 0 and {Sides.Count - 1}.");
-
-            return Sides[sideIndex];
-        }
-
         public override string ToString() => string.Join(",", Sides);
     }
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ernar\\OneDrive\\Desktop\\Practice\\MyDice\\MyDice\\MyDice.csproj": {}
+    "C:\\Users\\ernar\\OneDrive\\Desktop\\F\\MyDice\\MyDice\\MyDice\\MyDice.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ernar\\OneDrive\\Desktop\\Practice\\MyDice\\MyDice\\MyDice.csproj": {
+    "C:\\Users\\ernar\\OneDrive\\Desktop\\F\\MyDice\\MyDice\\MyDice\\MyDice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ernar\\OneDrive\\Desktop\\Practice\\MyDice\\MyDice\\MyDice.csproj",
+        "projectUniqueName": "C:\\Users\\ernar\\OneDrive\\Desktop\\F\\MyDice\\MyDice\\MyDice\\MyDice.csproj",
         "projectName": "MyDice",
-        "projectPath": "C:\\Users\\ernar\\OneDrive\\Desktop\\Practice\\MyDice\\MyDice\\MyDice.csproj",
+        "projectPath": "C:\\Users\\ernar\\OneDrive\\Desktop\\F\\MyDice\\MyDice\\MyDice\\MyDice.csproj",
         "packagesPath": "C:\\Users\\ernar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ernar\\OneDrive\\Desktop\\Practice\\MyDice\\MyDice\\obj\\",
+        "outputPath": "C:\\Users\\ernar\\OneDrive\\Desktop\\F\\MyDice\\MyDice\\MyDice\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\SDK\\NuGetPackages"

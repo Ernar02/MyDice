@@ -21,7 +21,7 @@ namespace MyDice.Services
 
             if (firstMover == 0) 
             {
-                Console.WriteLine("You make the first move.");
+                Console.WriteLine("You make the first move. Choose your dice: ");
                 PrintDiceChoices();
                 int playerIndex = _ui.ReadIntInRange("Your choice: ", 0, _dices.Count - 1, null, _dices);
                 player = _dices[playerIndex];

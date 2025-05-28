@@ -16,7 +16,6 @@ namespace MyDice.Services
         {
             if (dices == null) throw new ArgumentNullException(nameof(dices));
             if (dices.Count < 3) throw new ArgumentException($"You must provide at least 3 dice. Provided: {dices.Count}", nameof(dices));
-
             _dices = new List<Dice>();
             foreach (var sides in dices)
             {
@@ -29,22 +28,29 @@ namespace MyDice.Services
             var decider = new FirstMoverDecider(_ui);
             int firstMover = decider.Decide();
 
-            ShowAllDice();
             var selector = new DiceSelector(_dices, _ui);
             (_playerDice, _computerDice) = selector.SelectDice(firstMover);
 
             var roller = new DiceRoller(_playerDice!, _computerDice!, _ui);
-            int computerRollResult = roller.Roll("computer");
-            int playerRollResult = roller.Roll("player");
 
-            PrintResult(playerRollResult, computerRollResult);
-        }
+            int firstRollResult, secondRollResult;
 
-        private void ShowAllDice()
-        {
-            Console.WriteLine("Available dices:");
-            for (int i = 0; i < _dices.Count; i++)
-                Console.WriteLine($"{i} - {_dices[i]}");
+            if (firstMover == 1) 
+            {
+                Console.WriteLine("It's time for my roll.");
+                firstRollResult = roller.Roll("computer");
+                Console.WriteLine("It's time for your roll.");
+                secondRollResult = roller.Roll("player");
+                PrintResult(secondRollResult, firstRollResult); 
+            }
+            else 
+            {
+                Console.WriteLine("It's time for your roll.");
+                firstRollResult = roller.Roll("player");
+                Console.WriteLine("It's time for my roll.");
+                secondRollResult = roller.Roll("computer");
+                PrintResult(firstRollResult, secondRollResult); 
+            }
         }
 
         private void PrintResult(int playerRoll, int computerRoll)
@@ -54,8 +60,7 @@ namespace MyDice.Services
             else if (playerRoll < computerRoll)
                 Console.WriteLine($"I win ({computerRoll} > {playerRoll})!");
             else
-                Console.WriteLine("It's a draw!");
-
+                Console.WriteLine($"It's a draw! ({computerRoll} = {playerRoll})!");
             Console.WriteLine("Press any key to exit...");
             Console.ReadKey();
         }

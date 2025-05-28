@@ -25,7 +25,7 @@ internal class FirstMoverDecider
 
         if (userGuess == computerSelection)
         {
-            Console.WriteLine("You guessed right! You make the first move.");
+            Console.WriteLine("You guessed right!");
             return 0; 
         }
         else

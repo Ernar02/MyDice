@@ -23,10 +23,7 @@ namespace MyDice.Services
             int x = hmacHelper.Value;
             Console.WriteLine($"I selected a random value in the range 0..5 (HMAC={hmacHelper.Hmac})");
 
-            int y = who == "player"
-               ? _ui.ReadIntInRange("Add your number modulo 6: ", 0, 5)
-               : GetComputerInput();
-
+            int y = GetPlayerInput(); 
 
             int resultIndex = (x + y) % 6;
             var dice = who == "player" ? _playerDice : _computerDice;
@@ -34,16 +31,35 @@ namespace MyDice.Services
 
             Console.WriteLine($"My number is {x} (KEY={hmacHelper.KeyHex}).");
             Console.WriteLine($"The fair number generation result is {x} + {y} = {resultIndex} (mod 6).");
-            Console.WriteLine($"That corresponds to index {resultIndex} in {(who == "player" ? "your" : "my")} dice: value = {resultValue}.");
+
+            if (who == "player")
+            {
+                Console.WriteLine($"Your roll result is {resultValue}.");
+            }
+            else
+            {
+                Console.WriteLine($"My roll result is {resultValue}.");
+            }
 
             return resultValue;
         }
 
-        private int GetComputerInput()
+        private int GetPlayerInput()
         {
-            int y = new Random().Next(0, 6);
-            Console.WriteLine($"Computer uses number {y}.");
-            return y;
+            Console.WriteLine("Add your number modulo 6.");
+            Console.WriteLine("0 - 0");
+            Console.WriteLine("1 - 1");
+            Console.WriteLine("2 - 2");
+            Console.WriteLine("3 - 3");
+            Console.WriteLine("4 - 4");
+            Console.WriteLine("5 - 5");
+            Console.WriteLine("X - exit");
+            Console.WriteLine("? - help");
+            Console.Write("Your selection: ");
+
+   
+            return _ui.ReadIntInRange("", 0, 5);
         }
+
     }
 }
